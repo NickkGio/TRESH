@@ -1,0 +1,99 @@
+@font-face {
+  font-family: font ;
+  src: url(font.ttf);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  color:rgb(30, 29, 29);
+  margin-top: 40px;
+  margin-left: 460px;
+  border-style: solid;
+  border-width: 100px 20px 20px 20px;
+  display: block;
+  cursor: crosshair;
+}
+
+
+h1 {
+
+color: rgb(239, 239, 239);
+font-size: 50px;
+margin-top: 70px;
+letter-spacing: 2px;
+margin-left: 560px;
+font-family: 'font';
+}
+
+
+
+.contenitore {
+  position: absolute;
+  background-size: cover;
+}
+
+.contenitore3{
+  height: 400px;
+  width: 100px;
+  position: absolute;
+  background-size: cover;
+  margin-top: -19px;
+}
+.contenitore4{
+  position: absolute;
+  height: 400px;
+  width: 100px;
+  background-size: cover;
+  margin-top: -19px;
+  margin-left: -100px;
+}
+
+
+body {
+
+  background-color:rgb(15, 15, 15);
+  cursor: crosshair;
+}
+.randomizer1 {
+  color: rgb(62, 62, 62);
+    border: 5px solid rgb(62, 62, 62);
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(242, 155, 155, 0);
+    font-size: 16px;
+    margin-bottom: 74px;
+    margin-top: -100px;
+    margin-left: 430px;
+    font-family: 'font';
+    cursor: crosshair;
+}
+.randomizer {
+  color: rgb(62, 62, 62);
+    border: 5px solid rgb(62, 62, 62);
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(242, 155, 155, 0);
+    font-size: 16px;
+    margin-bottom: 74px;
+    margin-top: -100px;
+    margin-left: 1050px;
+    font-family: 'font';
+    cursor: crosshair;
+
+}
+
+button:hover {
+  color: rgb(239, 239, 239);
+  border-color: rgb(239, 239, 239);
+}
+
+a {
+  color: white;
+}

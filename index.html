@@ -1,0 +1,87 @@
+<!DOCTYPE html><html><head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="p5.riso.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+    <a href="https://ixd-supsi.github.io/specchiodellemiebrame/">INDICE</a>
+    <div class="contenitore">
+
+      <div class="contenitore2">
+      
+        <h1>TRESHCAM<size>©</h1>
+        
+      </div>
+
+     
+
+      <div class="contenitore4">
+       
+         <button onclick="myFunc6()" class="randomizer1">RED</button>
+         <script>
+           function myFunc6(){
+             bg = color(255,0,0);
+           }
+       </script>
+        <button onclick="myFunc5()" class="randomizer1">GREEN</button>
+        <script>
+          function myFunc5(){
+            bg = color(0,255,0);
+          }
+       </script>
+        <button onclick="myFunc7()" class="randomizer1">BLUE</button>
+        <script>
+          function myFunc7() {
+            bg = color(0,0,255);
+          }
+          
+        </script>
+        <button onclick="myFunc4()" class="randomizer1">SAVE</button>
+        <script>
+          function myFunc4(){
+            exportRiso();
+          }
+        </script>
+        
+      </div>
+      <div class="contenitore3">
+      
+        <button onclick="myFunc()" class="randomizer">atkinson</button>
+        <script>
+          function myFunc(){
+            ditherType = 'atkinson';
+          }
+       </script>
+        <button onclick="myFunc1()" class="randomizer">Floyd</button>
+        <script>
+          function myFunc1(){
+            ditherType = 'floydsteinberg';
+          }
+       </script>
+        <button onclick="myFunc2()" class="randomizer">Bayer</button>
+        <script>
+          function myFunc2(){
+            ditherType = 'bayer';
+          }
+       </script>
+        <button onclick="myFunc3()" class="randomizer">None</button>
+        <script>
+          function myFunc3() {
+            ditherType = 'none';
+
+          }
+        </script>
+
+
+      </div>
+    <script src="sketch.js"> 
+     
+   </script>
+    </div>
+    
+
+</body></html>
